@@ -1,0 +1,62 @@
+body,h1,h2,h3,h4,h5,h6,li,ul,p{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+html,body{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*iconfont*/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('font_u5ecckxj5uxzjjor/iconfont.eot');
+    src: url('font_u5ecckxj5uxzjjor/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('font_u5ecckxj5uxzjjor/iconfont.woff') format('woff'),
+    url('font_u5ecckxj5uxzjjor/iconfont.ttf') format('truetype'),
+    url('font_u5ecckxj5uxzjjor/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    background: #e5e5e5;
+    overflow: hidden;
+    position: fixed;
+    bottom: -24px;
+}
+.footer .icon{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding-top:-1.6rem;
+    padding-bottom: 0.1rem;
+}
+footer .icon i{
+    font-size: 1rem;
+}
+.footer .icon span{
+    display: block;
+    font-size: 0.6rem;
+}
+.footer .icon .a{
+    color: #1f4ba5;
+}
+
+
