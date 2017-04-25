@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/common.css">
@@ -19,7 +19,6 @@
         .content .list{
             width: 95%;
             overflow: hidden;
-
             margin: auto;
             box-shadow: 0px 0px 5px #cccccc;
         }
@@ -29,7 +28,7 @@
             background: #ffffff;
             overflow: hidden;
         }
-        .content .list .item +.item{
+        .content .list .item{
             margin-top: 1rem;
         }
         .content .list .item .text{
@@ -91,9 +90,11 @@
 <section class="content">
     <ul class="list">
         <li class="item">
-        <h1>破窗效应会是ofo的噩梦吗?</h1>
-        <p class="text">小黄车ofo在上海北京等大城市，是后来者，但是投放单车很疯狂，而摩拜的基本策略只能是挺住、打持久战!因为时 ...</p>
-        <div><img src="images/wz_list_05.png" alt="" width="100%"></div>
+            <a href="index_film_details.html">
+                <h1>破窗效应会是ofo的噩梦吗?</h1>
+                <p class="text">小黄车ofo在上海北京等大城市，是后来者，但是投放单车很疯狂，而摩拜的基本策略只能是挺住、打持久战!因为时 ...</p>
+                <div><img src="images/wz_list_05.png" alt="" width="100%"></div>
+            </a>
         <div class="footer">
             <p class="icon-warp">
                 <i class="iconfont">&#xe639;</i>
@@ -137,10 +138,12 @@
     </li>
     </ul>
 </section>
-<section class="footer">
+<section class="footer" style="bottom: -24px">
     <div class="icon a">
-        <i class="iconfont">&#xe612;</i>
-        <span>阅读</span>
+        <a href="index-article.html">
+            <i class="iconfont">&#xe612;</i>
+            <span>阅读</span>
+        </a>
     </div>
     <div class="icon">
         <a href="index_film.html">
@@ -149,7 +152,6 @@
         </a>
     </div>
 </section>
-
 </body>
 </html>
 <script src="js/swiper.min.js"></script>

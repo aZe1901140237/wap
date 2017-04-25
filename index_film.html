@@ -73,34 +73,43 @@
             display: inline-block;
         }
         .search div{
-
+            padding: 0.2rem 0;
         }
         .search input{
-            border: none;
+            width: 86%;
             background: #f2f2f2;
-            color: #d0d0d0;
+            color: #214da6;
+            border: none;
+            outline: none;
+        }
+        .search div i{
+            color: #244fa7;
+            font-weight: bold;
+
         }
     </style>
 </head>
 <body>
 <header class="search">
-    <div><img src="images/filmsy_03_03.png" alt=""></div>
-    <input type="text" value="速度与激情">
+    <div><i class="iconfont">&#xe60c;</i></div>
+    <input type="search" value="速度与激情">
 </header>
 <section class="content">
     <ul class="list">
         <li class="line">
             <div class="line_img"><img src="images/filmsy_03.png" alt="" width="100%"></div>
-            <div class="right">
-                <h1>片名：海豹六队 第一季</h1>
-                <p class="icon">
-                    <img src="images/filmsy_03_1_03.png">
-                    <span>8.9</span>
-                </p>
-                <p class="text">影片类型：剧情 / 动作 / 战争</p>
-                <p class="text">上映时间：2017-01-18</p>
-                <p class="text">主演: 巴里·斯隆 / 凯尔·施密德 </p>
-            </div>
+            <a href="dy_details.html">
+                <div class="right">
+                    <h1>片名：海豹六队 第一季</h1>
+                    <p class="icon">
+                        <img src="images/filmsy_03_1_03.png">
+                        <span>8.9</span>
+                    </p>
+                    <p class="text">影片类型：剧情 / 动作 / 战争</p>
+                    <p class="text">上映时间：2017-01-18</p>
+                    <p class="text">主演: 巴里·斯隆 / 凯尔·施密德 </p>
+                </div>
+            </a>
         </li>
         <li class="line">
             <div class="line_img"><img src="images/filmsy_03_1_07.png" alt="" width="100%"></div>
@@ -142,6 +151,19 @@
             </div>
         </li>
     </ul>
+</section>
+<section class="footer">
+    <a href="index-article.html">
+        <div class="icon a">
+            <i class="iconfont">&#xe612;</i>
+            <span>阅读</span>
+        </div>
+    </a>
+    <div class="icon">
+            <i class="iconfont">&#xe619;</i>
+            <span>电影</span>
+
+    </div>
 </section>
 </body>
 </html>
